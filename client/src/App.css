@@ -1,0 +1,161 @@
+.container {
+  padding: 50px;
+  background-image: url(../src/Sunny_Morning.png);
+  height: 100vh;
+  width: 100vw;
+}
+
+.form-control {
+  width: 50%;
+  height: 35px;
+  border-radius: 4px;
+  position: relative;
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+.form-control:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 25px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+  color: #ff981b;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 200%;
+  font-style: inherit;
+  background-color: #5ee1f1;
+  padding: "10px";
+  max-width: 50%;
+}
+
+.text-style {
+  color: #202833;
+  font-style: italic;
+}
+
+.submit-btn {
+  background-color: dodgerblue;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px 35px;
+  border-radius: 5px;
+  outline: 2;
+  box-shadow: 0px 3px 3px #5d83ff;
+}
+
+.submit-btn:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 25px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.success-btn {
+  background-color: rgb(45, 240, 132);
+  color: rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px 20px;
+  border-radius: 5px;
+  outline: 2;
+  box-shadow: 0px 3px 3px #5d83ff;
+  border: 10px skyblue;
+  max-width: 100px;
+  margin: auto;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.success-btn:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 25px 20px 0px rgba(45, 240, 132, 0.596);
+}
+
+.info-btn {
+  background-color: #fdfd96;
+  color: rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px 20px;
+  border-radius: 5px;
+  outline: 2;
+  box-shadow: 0px 3px 3px #5d83ff;
+  border: 10px skyblue;
+  max-width: 100px;
+  margin: auto;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.info-btn:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 25px 20px 0px rgba(255, 251, 15, 0.596);
+}
+
+.container2 {
+  border: 10px skyblue;
+  max-width: 100px;
+  margin: auto;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-btn {
+  display: inline-block;
+  background-color: #f77272;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px 10px;
+  border-radius: 100px;
+  outline: 2;
+  box-shadow: 0px 3px 3px #ff755d;
+}
+
+.delete-btn:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 25px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+form {
+  width: 50%;
+}
+
+ul {
+  padding-left: 10;
+  margin-top: 30px;
+  width: 70%;
+}
+
+li {
+  margin-top: 25px;
+}
+
+li span.done {
+  text-decoration: line-through;
+  color: #30b495;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  font-size: large;
+  font-weight: 200;
+}
+
+.Incomplete {
+  color: #313125;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: large;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 767px) {
+  form,
+  ul {
+    width: 100%;
+  }
+}
