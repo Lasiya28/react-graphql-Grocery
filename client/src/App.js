@@ -70,7 +70,7 @@ function App() {
           Add!
         </Button>
       </form>
-      <ul> //helloworld
+      <ul> //first stash
         {data.todos.map((todo) => (
           <li key={todo.id} className="Incomplete">
             <span className={todo.completed ? "done" : "pending"}>
