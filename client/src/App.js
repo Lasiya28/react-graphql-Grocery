@@ -35,7 +35,7 @@ const UPDATE_TODO = gql`
 
 function App() {
   let input;
-  const { data, loading, error } = useQuery(READ_TODOS);
+  const { data, loading, error } = useQuery(READ_TODOS); //define "data" in the create query to whatever suitable.
   const [createTodo] = useMutation(CREATE_TODO);
   const [deleteTodo] = useMutation(REMOVE_TODO);
   const [updateTodo] = useMutation(UPDATE_TODO);
